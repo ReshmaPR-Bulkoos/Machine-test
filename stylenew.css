@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap");
+@layer base{
+    body{
+
+
+    
+    
+    }
+}
+@layer components{
+    .header{
+        @apply  bg-[#FFFFFF] shadow-xl -mt-1 xl:pl-20;
+    }
+    .brand{
+        @apply  font-black text-[32px] text-[#E00E0E];
+    }
+    .banner{
+        @apply py-10 xl:float-left;
+    }
+    .banner h1{
+        @apply text-[#000000] text-[45px] font-bold leading-[3.5rem] text-center tracking-tight float-left
+        xl:text-left xl:ml-4 xl:w-[300px];
+    }
+    .banner p{
+        @apply text-[#000000] text-[30px] font-medium leading-[3.5rem] text-center tracking-tighter
+        xl:tracking-normal;
+    }
+    .sp{
+        @apply xl:mt-[6.5rem] xl:float-left xl:ml-[-18.5rem];
+    }
+    .banner .para{
+        @apply text-[#9E7474] text-[16px] text-center
+        xl:text-[18px] xl:mt-[11rem] xl:w-[28rem] xl:text-left xl:mx-32;
+    }
+    .button{
+        @apply  xl:mx-24;
+    }
+    .break{
+        @apply xl:mt-10;
+    }
+    .banner .view{
+        @apply w-[136px] h-[47px] bg-[#E00E0E] justify-center flex items-center rounded-3xl m-5 cursor-pointer;
+    }
+    .view p{
+        @apply text-[#FFFFFF] text-[14px];
+    }
+    .book p{
+        @apply text-[#E00E0E] text-[14px];
+    }
+    .book{
+        @apply w-[136px] h-[47px] bg-[#FFFFFF] justify-center flex items-center rounded-3xl m-5 shadow-2xl border-[0.1rem] border-gray-200 cursor-pointer;
+    }
+    .breakfast{
+        @apply mx-5
+        xl:ml-6 xl:mt-[-3rem];
+    }
+    .breakfast h1{
+        @apply font-bold text-[#000000] text-[18px] text-left ml-3 mr-10 xl:mr-0;
+    }
+    .breakfast p{
+        @apply font-normal text-[#9E7474] text-[18px] ml-3 -translate-y-7
+        xl:-ml-36 xl:-translate-y-6;
+    }
+    .arrow{
+        @apply w-[88px] h-[25px] float-right ml-auto mr-8 my-6
+        xl:my-2 xl:-mt-6 xl:float-left xl:-ml-36;
+    }
+    .image{
+        @apply w-[302px] h-[327px] mx-10
+        xl:w-[500px] xl:h-[450px]  xl:float-right xl:ml-16 xl:-mt-10;
+    }
+}
